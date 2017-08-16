@@ -1,0 +1,65 @@
+@charset "utf-8";
+.footer_box{
+	height: 600px;
+	border-top: 1px solid #c9c9c9;
+	background: url(../img/img7/footer_message_bg.jpg) center;
+	
+}
+.footer_logo{
+	height: 116px;
+	margin-top: 26px;
+	border-bottom: 1px solid #c9c9c9;
+}
+.footer_logo li{
+	width: 242px;
+}
+.footer_logo img{
+	display: inline-block;
+	padding: 0 5px 0 10px;
+}
+.footer_logo .logo_des{
+	margin-top: 12px;
+}
+.footer_logo .logo_des p{
+	/*display: block;*/
+	line-height: 24px;
+	color: #333333;
+}
+.footer_logo .logo_des .b{
+	font-weight:bold ;
+}
+.footer_msg{
+	width: 1295px;
+	height: 283px;
+}
+.footer_msg .mes_list{
+	width: 145px;
+	text-align: left;
+	padding: 0 20px;
+}
+.footer_msg .mes_list .title{
+	font-weight: bold;
+	margin: 20px 0px;
+}
+.footer_msg .mes_list p{
+	line-height: 24px;
+}
+.footer_message_btm,
+.footer_message_btm a{
+	text-align: center;
+	color: #FFFFFF;
+}
+.footer_link1{
+	line-height: 66px;
+}
+.footer_message_btm a{
+	display: inline-block;
+	padding: 0 5px;
+}
+.footer_link2,
+.copyright{
+	line-height: 24px;
+}
+.footer_pic{
+	margin-top: 14px;
+}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+.container_page{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*banner*/
+.banner{
+	background: url(../img/img8/147139708688_1000x460.jpg) no-repeat top center;
+	width: 1000px;
+	height: 460px;
+	margin-bottom: 25px;
+}
+/*favorite*/
+.favorite_brands{
+	height: 45px;
+}
+.favorite_brands .title{
+	background: url(../img/img8/pin_tuijian.jpg) no-repeat;
+	width: 336px;
+	height: 36px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.favorite_brands .more,
+.content .more{
+	background: url(../img/img8/more.png) no-repeat right;
+	width: 86px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+.favorite_brands .more a{
+	color: #000000;
+}
+.favorite_brands .more:hover a,
+.category_content .more:hover a,
+.handbags .more:hover a,
+.woman_cloth .more:hover a,
+.shoes .more:hover a,
+.accessorise .more:hover a,
+.cosmetic .more:hover a,
+.watches .more:hover a,
+.baby .more:hover a{
+	color: red;
+}
+.favorite_content{
+	margin-bottom: 35px;
+}
+.favorite_content .container_page,
+.category_content .container_page,
+.handbags .container_page,
+.woman_cloth .container_page,
+.shoes .container_page,
+.accessorise .container_page,
+.cosmetic .container_page,
+.watches .container_page,
+.baby .container_page{
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+.favorite_content .pic_box{
+	width: 180px;
+	height: 240px;
+	margin: 20px 10px;
+}
+.favorite_content .pic_box a{
+	display: block;
+	width: 180px;
+	height: 240px;
+	background-color: #000000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 24px;
+	color: #FFFFFF;
+	display: none;
+}
+.favorite_content .pic_box a span{
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+	line-height: 240px;
+}
+/*category*/
+.category .title{
+	background: url(../img/img8/spfl.jpg) no-repeat;
+	width: 224px;
+	height: 35px;
+}
+.category_content{
+	margin-bottom: 45px;
+}
+.category_content .category_box{
+	padding: 10px 0;
+}
+.category_content .category_list{
+	width: 245px;
+	min-height: 130px;
+	padding: 10px 0;
+}
+.category_content .category_list .list_l{
+	padding: 0 10px 0 16px;
+}
+.category_content .category_list .list_title a{
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 26px;
+}
+.category_content .category_list .list_box{
+	width: 174px;
+}
+.category_content .category_list .list_box .list{
+	display: inline-block;
+	padding-right: 16px;
+	height: 24px;
+	line-height: 24px;
+}
+.dash{
+	border-right: 1px dashed #999999;
+}
+.content{
+	background-color:#e6e6e6;
+	width: 100%;
+	padding-bottom: 30px;
+}
+/*handbags*/
+.content .handbags,
+.content .woman_cloth,
+.content .shoes,
+.content .accessorise,
+.content .cosmetic,
+.content .watches{
+	margin-bottom: 60px;
+}
+.content .head{
+	height: 90px;
+}
+.handbags .head .title{
+	background: url(../img/img8/1women_bags.jpg) no-repeat;
+	width: 245px;
+	height: 40px;
+	margin-right:222px ;
+}
+.woman_cloth .head .title{
+	background: url(../img/img8/2women_clothes.jpg) no-repeat;
+	width: 245px;
+	height: 40px;
+	margin-right:222px ;
+}
+.shoes .head .title{
+	background: url(../img/img8/3women_shoes.jpg) no-repeat;
+	width: 245px;
+	height: 40px;
+	margin-right:222px ;
+}
+.accessorise .head .title{
+	background: url(../img/img8/4women_accessories.jpg) no-repeat;
+	width: 264px;
+	height: 40px;
+	margin-right:200px ;
+}
+.cosmetic .head .title{
+	background: url(../img/img8/5women_cosmetics.jpg) no-repeat;
+	width: 251px;
+	height: 40px;
+	margin-right:218px ;
+}
+.watches .head .title{
+	background: url(../img/img8/6women_watches.jpg) no-repeat;
+	width: 245px;
+	height: 40px;
+	margin-right:222px ;
+}
+.baby .head .title{
+	background: url(../img/img8/7women_baby.jpg) no-repeat;
+	width: 245px;
+	height: 40px;
+	margin-right:222px ;
+}
+.content .head ul li{
+	line-height: 90px;
+	text-align: center;
+	padding: 0 12px;
+}
+.content .head .more{
+	line-height: 90px;
+}
+.pic_top{
+	padding-left: 10px;
+}
+.pic_top .pic_tl{
+	padding: 0 10px 20px 0;
+}
+.pic_bottom{
+	padding: 25px 10px;
+}
+.pic_bottom li{
+	margin-right: 16px;
+}
+.pic_bottom .pic_des{
+	width: 180px;
+	height: 60px;
+}
+.pic_bottom .pic_des .pic_word{
+	width: 160px;
+	text-align: center;
+	margin: 0px auto;
+	line-height: 24px;
+	padding-top: 10px;
+}
+.pic_bottom .pic_des .pic_word a{
+	display: inline-block;
+	width: 160px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000000;
+}
+.pic_bottom .pic_des .item_price{
+	color: #df3338;
+	font-size: 15px;
+}
+.pic_word .item_title:hover a{
+	color: #B28247;
+}
